@@ -1,0 +1,126 @@
+body > table
+{
+	margin:0 auto;
+}
+#c
+{
+	color:#F00;
+}
+#c:hover
+{
+	color:#0F0;
+}
+#f-big, .f-big {
+    font-size: 15px;
+    font-weight: 800;
+}
+#ttw {
+    background-color: yellow;
+    border: 2px solid blue;
+    margin-left: 216px;
+    margin-right: 229px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#prints {
+    margin-left: 47%;
+    margin-top: 2%;
+    position: absolute;
+}
+#side a:hover
+{
+	transition:color 1s;
+	color:#F00 !important;
+}
+#nav a:hover
+{
+	transition:background-color 1s;
+	background-color:#FF0 !important;
+}
+
+#cr {
+    background: none repeat scroll 0 0 white;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 12px;
+    margin-left: 491px;
+    margin-right: 100px;
+    margin-top: -19px;
+    padding: 0 7px 0 3px;
+    position: relative;
+    text-align: right;
+}
+#cr2 {
+    background: none repeat scroll 0 0 #FF0000;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 9px;
+    margin-left: 492px;
+    padding: 0 7px 0 3px;
+    position: absolute;
+    text-align: right;
+    width: 334px;
+	color:#FFF;
+}
+.total {
+    background-color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 8px;
+    margin-top: -24px;
+    position: relative;
+}
+.custom-combobox {
+position: relative;
+display: inline-block;
+}
+.custom-combobox-toggle {
+position: absolute;
+top: 0;
+bottom: 0;
+margin-left: -1px;
+padding: 0;
+/* support: IE7 */
+*height: 1.7em;
+*top: 0.1em;
+}
+.custom-combobox-input {
+margin: 0;
+padding: 0.3em;
+color:#F00;
+}
+@charset "utf-8";
+/* CSS Document */
+.btn:hover,input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover
+{
+	cursor:pointer;
+}
+#msg {
+    background-color: red;
+    color: white;
+    height: 24px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#msg:after
+{
+	content:" !";
+}
+#total-tb {
+    margin-left: 20%;
+}
+#nav {
+    background-color: inactivecaption;
+    height: 29px;
+    line-height: 28px;
+    padding-left: 8px;
+}
+#content {
+    background-color: yellowgreen;
+	 overflow-y: scroll;
+	 height:450px;
+}
+#nav > a {
+    background-color: #0F6;
+}
+#nav > a:hover {
+    background-color: #6CC;
+	color:#F00;
+}

@@ -1,0 +1,96 @@
+#prints > span, #prints > a {
+    display: none;
+}
+#f-big, .f-big {
+    font-size: 19px;
+    font-weight: 800;
+}
+#hide
+{
+	display:none;
+}
+#none
+{
+	display:none;
+}
+#side
+{
+	display:none;
+}
+#header
+{
+	display:none;
+}
+#footer
+{
+	display:none;
+}
+#nav
+{
+	display:none;
+}
+form
+{
+	display:none;
+}
+.custom-combobox {
+position: relative;
+display: inline-block;
+}
+.custom-combobox-toggle {
+position: absolute;
+top: 0;
+bottom: 0;
+margin-left: -1px;
+padding: 0;
+/* support: IE7 */
+*height: 1.7em;
+*top: 0.1em;
+}
+.custom-combobox-input {
+margin: 0;
+padding: 0.3em;
+color:#F00;
+}
+@charset "utf-8";
+/* CSS Document */
+.btn:hover,input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover
+{
+	cursor:pointer;
+}
+#msg {
+    background-color: red;
+    color: white;
+    height: 24px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#msg:after
+{
+	content:" !";
+}
+#total-tb {
+    margin-left: 20%;
+}
+#nav {
+    background-color: inactivecaption;
+    height: 29px;
+    line-height: 28px;
+    padding-left: 8px;
+}
+#content {
+    background-color: yellowgreen;
+	 overflow-y: scroll;
+	 height:450px;
+}
+html
+{
+	margin-left:150px;
+}
+#nav > a {
+    background-color: #0F6;
+}
+#nav > a:hover {
+    background-color: #6CC;
+	color:#F00;
+}

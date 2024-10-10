@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_all" value="name:id;datatype:int,name:conn_id;datatype:string,name:date;datatype:string,name:name;datatype:string,name:type;datatype:string,name:amount;datatype:string,name:detail;datatype:string,name:info;datatype:string" />
+</info>

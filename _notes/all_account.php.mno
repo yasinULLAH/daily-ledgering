@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_accounts" value="name:id;datatype:int,name:date;datatype:string,name:name;datatype:string,name:Credit;datatype:string,name:Debut;datatype:string,name:result;datatype:string,name:conn_id;datatype:string" />
+</info>

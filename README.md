@@ -1,5 +1,3 @@
-
-```markdown
 # Khata Roznamcha
 
 Khata Roznamcha is a web-based ledger management software designed to facilitate easy and efficient handling of financial transactions. The system allows users to manage credits, debits, account details, generate detailed financial reports, and maintain records over time. It is particularly suitable for small businesses or individuals looking to maintain a clear record of their financial activities.
@@ -11,7 +9,6 @@ Khata Roznamcha is a web-based ledger management software designed to facilitate
 - [Installation](#installation)
 - [Database Setup](#database-setup)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
 - [Backup Roznamcha DataBase Cleaned 12-30-2022.sql](#backup-roznamcha-database-cleaned-12-30-2022sql)
 - [Security Considerations](#security-considerations)
 - [Future Enhancements](#future-enhancements)
@@ -69,11 +66,9 @@ To set up Khata Roznamcha on your local machine, follow these steps:
    git clone https://github.com/your-username/khata-roznamcha.git
    cd khata-roznamcha
    ```
-
 2. **Set up the web server**:
    - Ensure you have a web server like **XAMPP** or **WAMP** installed.
    - Place the project files in the web server's root directory (e.g., `htdocs` for XAMPP).
-
 3. **Configure Database Connection**:
    - Update the `Connections/myconn.php` file with your MySQL database credentials:
      ```php
@@ -82,7 +77,6 @@ To set up Khata Roznamcha on your local machine, follow these steps:
      $username_myconn = "your_db_username";
      $password_myconn = "your_db_password";
      ```
-
 4. **Start the Web Server**:
    - Start Apache and MySQL from your web server control panel.
    - Access the application in your browser at `http://localhost/khata-roznamcha`.
@@ -90,17 +84,13 @@ To set up Khata Roznamcha on your local machine, follow these steps:
 ## Database Setup
 
 1. **Create a MySQL Database**:
-   - Create a database named `khata_database` using phpMyAdmin or MySQL command line:
-     ```sql
-     CREATE DATABASE khata_database;
-     ```
-
+   ```sql
+   CREATE DATABASE khata_database;
+   ```
 2. **Import SQL File**:
-   - Import the provided SQL backup file (`Backup Roznamcha DataBase Cleaned 12-30-2022.sql`) into the database using phpMyAdmin or MySQL command line:
-     ```bash
-     mysql -u your_db_username -p khata_database < path/to/Backup Roznamcha DataBase Cleaned 12-30-2022.sql
-     ```
-
+   ```bash
+   mysql -u your_db_username -p khata_database < path/to/Backup Roznamcha DataBase Cleaned 12-30-2022.sql
+   ```
 3. **Verify Database Structure**:
    - Ensure that tables and records have been imported successfully.
 
@@ -115,7 +105,7 @@ khata-roznamcha/
 ├── all_account.php            # Displays all accounts
 ├── client-detail.php          # Shows detailed information for a client
 ├── credits.php                # Manages credit transactions
-├── debuts.php                 # Manages debit transactions
+├── debits.php                 # Manages debit transactions
 ├── trans.php                  # Manages fund transfers between accounts
 ├── date.php                   # Generates date-specific reports
 ├── total.php                  # Generates a summary of total transactions
@@ -154,10 +144,3 @@ To import this SQL file, follow the instructions provided in the [Database Setup
 - **Role-Based Access Control**: Implement roles for users (e.g., admin, manager) for more granular access control.
 - **Enhanced Reporting**: Add options to export reports in other formats like CSV or Excel.
 - **Code Refactoring**: Consider using an MVC framework like Laravel for better code organization.
-
----
-
-This README provides a detailed overview of Khata Roznamcha, including setup instructions, usage, and future improvements. Feel free to customize the content to suit your specific project requirements.
-```
-
-This version of the `README.md` file includes more details about the features and the SQL backup file, providing a clearer picture of the application's capabilities and setup process. Let me know if you need further adjustments!

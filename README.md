@@ -1,4 +1,4 @@
-# Khata Roznamcha
+# Khata Roznamcha a daily ledgering and POS system in PHP and mysql
 
 Khata Roznamcha is a web-based ledger management and POS (Point of Sale) software designed to facilitate easy and efficient handling of financial transactions. The system allows users to manage credits, debits, sales, purchases, customer details, generate detailed financial reports, and maintain records over time. It is particularly suitable for small businesses, shops, and individuals looking to maintain a clear record of their financial activities.
 
